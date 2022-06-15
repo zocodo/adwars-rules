@@ -15,7 +15,9 @@ axios.get(url).then((res) => {
     } else {
       const host = item.replace(/\s|\#.+/g, '')
       if (host) {
-        text += 'host-keyword, ' + host + ', AdBlock\n';
+        // text += 'host-keyword, ' + host + ', AdBlock\n';
+        text += 'host, ' + host + ', AdBlock\n';
+
       }
     }
   })
