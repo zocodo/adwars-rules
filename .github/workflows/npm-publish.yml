@@ -20,6 +20,6 @@ jobs:
       - run: npm run transfer
 
       - uses: stefanzweifel/git-auto-commit-action@v4
-          with:
-            commit_message: Apply adwars-quantumultX.txt changes
+        with:
+          commit_message: Apply adwars-quantumultX.txt changes
 
