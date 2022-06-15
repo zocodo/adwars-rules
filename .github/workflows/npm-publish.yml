@@ -17,5 +17,5 @@ jobs:
         with:
           node-version: 16
       - run: npm install
-      - run: node ./scripts/transfer.js
+      - run: npm run transfer
 
