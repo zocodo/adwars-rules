@@ -10,9 +10,13 @@ axios.get(url).then((res) => {
   text += `# modification time: ${now.toLocaleDateString()} ${now.toLocaleTimeString()}\n`;
   text += `# from: ${url}\n`;
   hostarr.forEach((item) => {
-    item = item.replace(/\s|\#.+/g, '')
-    if (item) {
-      text += 'host-keyword, ' + item + ', AdBlock\n';
+    if (/^\#/.test(item)) {
+      text += item + '\n';
+    } else {
+      const host = item.replace(/\s|\#.+/g, '')
+      if (host) {
+        text += 'host-keyword, ' + host + ', AdBlock\n';
+      }
     }
   })
   fs.writeFile('./adwars-quantumultX.txt', text, function() {

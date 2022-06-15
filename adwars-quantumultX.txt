@@ -1,7 +1,13 @@
-# modification time: 1655263999546
+# by: zocodo 
+# modification time: 6/15/2022 11:45:42 AM
+# from: https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+#pkg=white.ad.web.com;【提示误伤】选择性不✔以下子项
+#---------------------------------------------
 host-keyword, livew.l.qq.com, AdBlock
 host-keyword, t7z.cupid.iqiyi.com, AdBlock
 host-keyword, wxsnsdy.wxs.qq.com, AdBlock
+#---------------------------------------------
+#--下列会影响奖励形式的广告(小程序\小游戏等)
 host-keyword, is.snssdk.com, AdBlock
 host-keyword, adsmind.gdtimg.com, AdBlock
 host-keyword, pv.sohu.com, AdBlock
@@ -24,6 +30,8 @@ host-keyword, rpt.gdt.qq.com, AdBlock
 host-keyword, win.gdt.qq.com, AdBlock
 host-keyword, ipv4.gdt.qq.com, AdBlock
 host-keyword, v6ii.gdt.qq.com, AdBlock
+#pkg=ad.xiaomi.com;视频客户端广告
+#--小米视频-MIUI
 host-keyword, video.market.xiaomi.com, AdBlock
 host-keyword, t1.a.market.xiaomi.com, AdBlock
 host-keyword, t2.a.market.xiaomi.com, AdBlock
@@ -66,6 +74,7 @@ host-keyword, xiaomi.m.cn.miaozhen.com, AdBlock
 host-keyword, xiaomi-dtv.m.cn.miaozhen.com, AdBlock
 host-keyword, baiducdncmn3.inter.iqiyi.com, AdBlock
 host-keyword, nadvideo2.baidu.com, AdBlock
+#--爱奇艺-Qiyi
 host-keyword, api.cupid.iqiyi.com, AdBlock
 host-keyword, api.yuedu.iqiyi.com, AdBlock
 host-keyword, c.uaa.iqiyi.com, AdBlock
@@ -113,6 +122,7 @@ host-keyword, baiducdncmn-gd.inter.iqiyi.com, AdBlock
 host-keyword, bdcdncmn-gd.inter.71edge.com, AdBlock
 host-keyword, mixer.cupid.ptqy.gitv.tv, AdBlock
 host-keyword, msg.ptqy.gitv.tv, AdBlock
+#--腾讯视频-Tencent
 host-keyword, aiseet.aa.atianqi.com, AdBlock
 host-keyword, livep.l.aiseet.atianqi.com, AdBlock
 host-keyword, lives.l.aiseet.atianqi.com, AdBlock
@@ -157,6 +167,7 @@ host-keyword, news.l.qq.com, AdBlock
 host-keyword, mcgi.v.qq.com, AdBlock
 host-keyword, soup.v.qq.com, AdBlock
 host-keyword, bksoup.v.qq.com, AdBlock
+#--搜狐视频-Sohu
 host-keyword, sohu-dtv.m.cn.miaozhen.com, AdBlock
 host-keyword, agn.aty.snmsohu.aisee.tv, AdBlock
 host-keyword, agn.aty.sohu.com, AdBlock
@@ -183,9 +194,11 @@ host-keyword, wl.hd.sohu.com, AdBlock
 host-keyword, download.wan.sohu.com, AdBlock
 host-keyword, g.jssdk.net, AdBlock
 host-keyword, changyan.sohu.com, AdBlock
+#--乐视视频-Letv
 host-keyword, n.mark.letv.com, AdBlock
 host-keyword, static.app.m.letv.com, AdBlock
 host-keyword, test.ark.letv.com, AdBlock
+#--PP视频-PPTV
 host-keyword, de.as.cp61.ott.cibntv.net, AdBlock
 host-keyword, lives.l.cp81.ott.cibntv.net, AdBlock
 host-keyword, mtrace.play.cp81.ott.cibntv.net, AdBlock
@@ -208,6 +221,7 @@ host-keyword, ads.data.pplive.com, AdBlock
 host-keyword, gas.data.pplive.com, AdBlock
 host-keyword, plt.data.pplive.com, AdBlock
 host-keyword, web.data.pplive.com, AdBlock
+#--芒果TV-Mgtv
 host-keyword, mobile.da.mgtv.com, AdBlock
 host-keyword, mobile2.da.mgtv.com, AdBlock
 host-keyword, ott.da.mgtv.com, AdBlock
@@ -232,6 +246,7 @@ host-keyword, zx.da.mgtv.com, AdBlock
 host-keyword, apperr.log.mgtv.com, AdBlock
 host-keyword, m2.da.mgtv.com, AdBlock
 host-keyword, m.da.mgtv.com, AdBlock
+#--央视影音-CNTV
 host-keyword, cws-cctv.conviva.com, AdBlock
 host-keyword, galaxy.bjcathay.com, AdBlock
 host-keyword, rtas.videocc.net, AdBlock
@@ -242,6 +257,7 @@ host-keyword, adguanggao.eee114.com, AdBlock
 host-keyword, cctv.adsunion.com, AdBlock
 host-keyword, adstore-1252524079.file.myqcloud.com, AdBlock
 host-keyword, adstore-index-1252524079.file.myqcloud.com, AdBlock
+#--风行&酷喵-FunShion
 host-keyword, aa0.pub.funshion.com, AdBlock
 host-keyword, aa1.pub.funshion.com, AdBlock
 host-keyword, adm.funshion.com, AdBlock
@@ -270,6 +286,7 @@ host-keyword, yk-ssp.ad.youku.com, AdBlock
 host-keyword, adashx.ut.youku.com, AdBlock
 host-keyword, adx-open-service.youku.com, AdBlock
 host-keyword, h-adashx.ut.youku.com, AdBlock
+#--咪咕|土豆|人人|凤凰|等等……
 host-keyword, ggx.cmvideo.cn, AdBlock
 host-keyword, adxserver.ad.cmvideo.cn, AdBlock
 host-keyword, openstorage.ad.cmvideo.cn, AdBlock
@@ -323,6 +340,7 @@ host-keyword, ifengad.3g.ifeng.com, AdBlock
 host-keyword, adv.fjtv.net, AdBlock
 host-keyword, dsa-mfp.fengshows.cn, AdBlock
 host-keyword, sdk.cferw.com, AdBlock
+#pkg=ad.adwars.com;大圣净化规则
 host-keyword, ad.weixin.qq.com, AdBlock
 host-keyword, wxa.wxs.qq.com, AdBlock
 host-keyword, wxsnsdythumb.wxs.qq.com, AdBlock
@@ -769,6 +787,7 @@ host-keyword, gd-stats.jpush.cn, AdBlock
 host-keyword, tsis.jpush.cn, AdBlock
 host-keyword, bjuser.jpush.cn, AdBlock
 host-keyword, s.jpush.cn, AdBlock
+#pkg=googleanalysis.mobi;谷歌广告服务
 host-keyword, ads.google.com, AdBlock
 host-keyword, www.googleadservices.com, AdBlock
 host-keyword, google-analytics.com, AdBlock
@@ -987,6 +1006,7 @@ host-keyword, s0.2mdn.net, AdBlock
 host-keyword, s1.2mdn.net, AdBlock
 host-keyword, media.admob.com, AdBlock
 host-keyword, ssl.google-analytics.com, AdBlock
+#pkg=baidu.com;百度广告服务
 host-keyword, adm.baidu.com, AdBlock
 host-keyword, ad.player.baidu.com, AdBlock
 host-keyword, adscdn.baidu.com, AdBlock
@@ -1055,6 +1075,7 @@ host-keyword, sa.tuisong.baidu.com, AdBlock
 host-keyword, api.tuisong.baidu.com, AdBlock
 host-keyword, sa8.tuisong.baidu.com, AdBlock
 host-keyword, cpro.baidustatic.com, AdBlock
+#pkg=qq.com;腾讯广告服务
 host-keyword, ad.qun.qq.com, AdBlock
 host-keyword, adping.qq.com, AdBlock
 host-keyword, adpm.app.qq.com, AdBlock
@@ -1133,6 +1154,7 @@ host-keyword, qappcenterv6.3g.qq.com, AdBlock
 host-keyword, aeventlog.beacon.qq.com, AdBlock
 host-keyword, cc.map.qq.com, AdBlock
 host-keyword, aegis.qq.com, AdBlock
+#pkg=alibaba.com;阿里广告服务
 host-keyword, adash.man.aliyuncs.com, AdBlock
 host-keyword, cdn-ads.oss-cn-shanghai.aliyuncs.com, AdBlock
 host-keyword, ynuf.aliapp.org, AdBlock
@@ -1167,6 +1189,7 @@ host-keyword, audid-api.taobao.com, AdBlock
 host-keyword, adashx4yt.m.taobao.com, AdBlock
 host-keyword, h-adashx4yt.ut.taobao.com, AdBlock
 host-keyword, umdc.aliapp.org, AdBlock
+#pkg=xxx.ad.doubleclick.net;广告联盟
 host-keyword, iqiyi.irs01.com, AdBlock
 host-keyword, letv.irs01.com, AdBlock
 host-keyword, s9.irs03.com, AdBlock
