@@ -1,7 +1,7 @@
 # by: zocodo 
-# modification time: 9/8/2022 12:34:00 AM
+# modification time: 9/8/2022 12:11:02 PM
 # from: https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
-#pkg=white.ad.web.com;【提示误伤】选择性不✔以下子项
+#pkg=white.ad.web.com;【提示误伤】选择性不√以下子项
 #---------------------------------------------
 host, livew.l.qq.com, AdBlock
 host, t7z.cupid.iqiyi.com, AdBlock
@@ -787,6 +787,17 @@ host, gd-stats.jpush.cn, AdBlock
 host, tsis.jpush.cn, AdBlock
 host, bjuser.jpush.cn, AdBlock
 host, s.jpush.cn, AdBlock
+host, adx.sogaha.cn, AdBlock
+host, api.jialiangad.com, AdBlock
+host, track.adxwork.com, AdBlock
+host, p1-lm.adkwai.com, AdBlock
+host, p1.adkwai.com, AdBlock
+host, report.yumobi.cn, AdBlock
+host, ssp.indexmob.com, AdBlock
+host, engine.liandaomobi.com, AdBlock
+host, api.yidaomobi.com, AdBlock
+host, adtrack.e.kuaishou.com, AdBlock
+host, open.e.kuaishou.cn, AdBlock
 #pkg=googleanalysis.mobi;谷歌广告服务
 host, ads.google.com, AdBlock
 host, www.googleadservices.com, AdBlock
