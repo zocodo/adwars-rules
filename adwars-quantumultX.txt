@@ -1,12 +1,12 @@
 # by: zocodo 
-# modification time: 3/1/2023 12:34:25 AM
+# modification time: 3/1/2023 12:10:09 PM
 # from: https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 #pkg=white.ad.web.com;【提示误伤】选择性不√以下子项
-#---------------------------------------------
+#------------------------------------------
 host, livew.l.qq.com, AdBlock
 host, t7z.cupid.iqiyi.com, AdBlock
 host, wxsnsdy.wxs.qq.com, AdBlock
-#---------------------------------------------
+#------------------------------------------
 #--下列会影响奖励形式的广告(小程序\小游戏等)
 host, is.snssdk.com, AdBlock
 host, adsmind.gdtimg.com, AdBlock
@@ -798,6 +798,38 @@ host, engine.liandaomobi.com, AdBlock
 host, api.yidaomobi.com, AdBlock
 host, adtrack.e.kuaishou.com, AdBlock
 host, open.e.kuaishou.cn, AdBlock
+host, jnn-pa.googleapis.com, AdBlock
+host, adcs-ue.myappsget.com, AdBlock
+host, api.myadsget.com, AdBlock
+host, midas-tracker.hellay.net, AdBlock
+host, adcs-ap.myappsget.com, AdBlock
+host, adx-tk.rayjump.com, AdBlock
+host, events.ads.vungle.com, AdBlock
+host, app.appsflyer.com, AdBlock
+host, adx.apiok.net, AdBlock
+host, ads.api.vungle.com, AdBlock
+host, net.rayjump.com, AdBlock
+host, svibeacon.onezapp.com, AdBlock
+host, data.flurry.com, AdBlock
+host, ms.applovin.com, AdBlock
+host, rt.applovin.com, AdBlock
+host, d.applvn.com, AdBlock
+host, telemetry.sdk.inmobi.com, AdBlock
+host, ms.applvn.com, AdBlock
+host, rt.applvn.com, AdBlock
+host, api.youngle.tech, AdBlock
+host, publisher-config.unityads.unity3d.com, AdBlock
+host, httpkafka.unityads.unity3d.com, AdBlock
+host, configv2.unityads.unity3d.com, AdBlock
+host, cdn.appnext.com, AdBlock
+host, imasdk.googleapis.com, AdBlock
+host, events.mz.unity3d.com, AdBlock
+host, umeng.com.gds.alibabadns.com, AdBlock
+host, errnewlog.umeng.com, AdBlock
+host, auction-load.unityads.unity3d.com, AdBlock
+host, cdp.cloud.unity3d.com, AdBlock
+host, app-measurement.com, AdBlock
+host, beacons.gcp.gvt2.com, AdBlock
 #pkg=googleanalysis.mobi;谷歌广告服务
 host, ads.google.com, AdBlock
 host, www.googleadservices.com, AdBlock
