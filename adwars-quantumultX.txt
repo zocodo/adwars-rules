@@ -1,5 +1,5 @@
 # by: zocodo 
-# modification time: 11/17/2023 12:27:00 AM
+# modification time: 11/17/2023 12:09:11 PM
 # from: https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 #pkg=white.ad.web.com;【提示误伤】选择性不√以下子项
 #------------------------------------------
@@ -1273,7 +1273,6 @@ host, tran.mediav.com, AdBlock
 host, view.mediav.com, AdBlock
 host, xd.mediav.com, AdBlock
 host, c.bing.com, AdBlock
-host, c.msn.com, AdBlock
 host, otf.msn.com, AdBlock
 host, umeng.com, AdBlock
 host, alog.umeng.com, AdBlock
