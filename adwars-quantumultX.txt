@@ -1,5 +1,5 @@
 # by: zocodo 
-# modification time: 11/3/2024 12:11:41 PM
+# modification time: 11/4/2024 12:37:48 AM
 # from: https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
 #pkg=white.ad.web.com;【提示误伤】选择性不√以下子项
 #------------------------------------------
