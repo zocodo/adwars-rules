@@ -8,7 +8,7 @@
 
 [rule]
 # > 懒人听书
-# hostname = 118.178.214.118, dapis.mting.info, display.wting.info, shapi.mting.info
+# hostname = 118.178.214.118, dapis.mting.info, display.wting.info, shapi.mting.info, gzapi.mting.info
 ^https?:\/\/118\.178\.214\.118\/yyting\/advertclient\/ClientAdvertList\.action reject-img
 ^https?:\/\/dapis\.mting\.info\/yyting\/advertclient\/ClientAdvertList\.action reject-img
 ^https?:\/\/.*\/yyting\/advertclient\/ClientAdvertList.action reject
@@ -21,4 +21,4 @@ URL-REGEX,^https?:\/\/gzapi\.mting\.info\/advert,REJECT
 # MITM：中间人攻击，解密/跳过相关域名的内容，"-"开头为跳过
 # =====================================
 [MITM]
-hostname = 118.178.214.118, dapis.mting.info, display.wting.info, shapi.mting.info
+hostname = 118.178.214.118, dapis.mting.info, display.wting.info, shapi.mting.info, gzapi.mting.info
