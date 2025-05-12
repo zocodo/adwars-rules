@@ -22,6 +22,7 @@
 ^https?:\/\/display\.wting\.info\/.*.jpeg reject-200
 # ^https?:\/\/shapi\.mting\.info\/advert\/advertDefaultList.action reject
 URL-REGEX,^https?:\/\/shapi\.mting\.info\/advert,REJECT
+URL-REGEX,^https?:\/\/gzapi\.mting\.info\/advert,REJECT
 
 # =====================================
 # MITM：中间人攻击，解密/跳过相关域名的内容，"-"开头为跳过
