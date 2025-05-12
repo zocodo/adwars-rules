@@ -1,0 +1,9 @@
+# > 懒人听书
+# hostname = 118.178.214.118, dapis.mting.info, display.wting.info, shapi.mting.info
+^https?:\/\/118\.178\.214\.118\/yyting\/advertclient\/ClientAdvertList\.action reject-img
+^https?:\/\/dapis\.mting\.info\/yyting\/advertclient\/ClientAdvertList\.action reject-img
+^https?:\/\/.*\/yyting\/advertclient\/ClientAdvertList.action reject
+^https?:\/\/display\.wting\.info\/.*.jpeg reject-200
+
+^https?:\/\/shapi\.mting\.info\/advert\/advertDefaultList.action reject
+^https?:\/\/shapi\.mting\.info\/advert\/.* reject
