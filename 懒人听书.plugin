@@ -20,7 +20,7 @@
 ^https?:\/\/dapis\.mting\.info\/yyting\/advertclient\/ClientAdvertList\.action reject-img
 ^https?:\/\/.*\/yyting\/advertclient\/ClientAdvertList.action reject
 ^https?:\/\/display\.wting\.info\/.*.jpeg reject-200
-^https?:\/\/shapi\.mting\.info\/advert\/advertDefaultList.action reject
+# ^https?:\/\/shapi\.mting\.info\/advert\/advertDefaultList.action reject
 URL-REGEX, ^https?:\/\/shapi\.mting\.info\/advert\/ REJECT
 
 # =====================================
