@@ -15,6 +15,9 @@
 ^https?:\/\/display\.wting\.info\/.*.jpeg reject-200
 # ^https?:\/\/shapi\.mting\.info\/advert\/advertDefaultList.action reject
 ^https?:\/\/gzapi\.mting\.info/\yyting\/medal\/newRewardedMedalTips reject
+^https?:\/\/gzapi\.mting\.info\/yyting\/bookclient\/similarRecommend reject
+^https?:\/\/gzapi\.mting\.info\/yyting\/popup\/getPopup reject
+
 
 URL-REGEX,^https?:\/\/shapi\.mting\.info\/advert,REJECT
 URL-REGEX,^https?:\/\/gzapi\.mting\.info\/advert,REJECT
