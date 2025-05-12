@@ -1,3 +1,12 @@
+#!name=懒人听书去广告
+#!desc=懒人听书广告进行拦截
+#!rule-details=懒人听书
+#!author=zocodo
+#!tag=去广告
+#!system=iOS, iPadOS
+#!system_version = 
+#!loon_version = 
+
 # > 懒人听书
 # hostname = 118.178.214.118, dapis.mting.info, display.wting.info, shapi.mting.info
 ^https?:\/\/118\.178\.214\.118\/yyting\/advertclient\/ClientAdvertList\.action reject-img
