@@ -8,17 +8,17 @@
 
 [rule]
 # > 懒人听书
-# hostname = 118.178.214.118, dapis.mting.info, display.wting.info, shapi.mting.info, gzapi.mting.info
-^https?:\/\/118\.178\.214\.118\/yyting\/advertclient\/ClientAdvertList\.action reject-img
-^https?:\/\/dapis\.mting\.info\/yyting\/advertclient\/ClientAdvertList\.action reject-img
-^https?:\/\/.*\/yyting\/advertclient\/ClientAdvertList.action reject
-^https?:\/\/display\.wting\.info\/.*.jpeg reject-200
-# ^https?:\/\/shapi\.mting\.info\/advert\/advertDefaultList.action reject
-^https?:\/\/gzapi\.mting\.info/\yyting\/medal\/newRewardedMedalTips reject
-^https?:\/\/gzapi\.mting\.info\/yyting\/bookclient\/similarRecommend reject
-^https?:\/\/gzapi\.mting\.info\/yyting\/popup\/getPopup reject
-^https?:\/\/hmonitor\.mting\.info\/upload\/clickAdvert reject
-^https?:\/\/shapi\.mting\.info\/yyting\/system\/switchConfig reject
+# hostname = 118.178.214.118, dapis.mting.info, display.wting.info, shapi.mting.info, gzapi.mting.info, hmonitor.mting.info
+URL-REGEX,^https?:\/\/118\.178\.214\.118\/yyting\/advertclient\/ClientAdvertList\.action,REJECT
+URL-REGEX,^https?:\/\/dapis\.mting\.info\/yyting\/advertclient\/ClientAdvertList\.action,REJECT
+URL-REGEX,^https?:\/\/.*\/yyting\/advertclient\/ClientAdvertList.action,REJECT
+URL-REGEX,^https?:\/\/display\.wting\.info\/.*.jpeg,REJECT
+
+URL-REGEX,^https?:\/\/gzapi\.mting\.info/\yyting\/medal\/newRewardedMedalTips,REJECT
+URL-REGEX,^https?:\/\/gzapi\.mting\.info\/yyting\/bookclient\/similarRecommend,REJECT
+URL-REGEX,^https?:\/\/gzapi\.mting\.info\/yyting\/popup\/getPopup,REJECT
+URL-REGEX,^https?:\/\/hmonitor\.mting\.info\/upload\/clickAdvert,REJECT
+URL-REGEX,^https?:\/\/shapi\.mting\.info\/yyting\/system\/switchConfig,REJECT
 
 URL-REGEX,^https?:\/\/shapi\.mting\.info\/advert,REJECT
 URL-REGEX,^https?:\/\/gzapi\.mting\.info\/advert,REJECT
@@ -27,4 +27,4 @@ URL-REGEX,^https?:\/\/gzapi\.mting\.info\/advert,REJECT
 # MITM：中间人攻击，解密/跳过相关域名的内容，"-"开头为跳过
 # =====================================
 [MITM]
-hostname = 118.178.214.118, dapis.mting.info, display.wting.info, shapi.mting.info, gzapi.mting.info
+hostname = 118.178.214.118, dapis.mting.info, display.wting.info, shapi.mting.info, gzapi.mting.info, hmonitor.mting.info
