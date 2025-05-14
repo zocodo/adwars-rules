@@ -18,6 +18,7 @@
 ^https?:\/\/gzapi\.mting\.info\/yyting\/bookclient\/similarRecommend reject
 ^https?:\/\/gzapi\.mting\.info\/yyting\/popup\/getPopup reject
 ^https?:\/\/hmonitor\.mting\.info\/upload\/clickAdvert reject
+^https?:\/\/shapi\.mting\.info\/yyting\/system\/switchConfig reject
 
 URL-REGEX,^https?:\/\/shapi\.mting\.info\/advert,REJECT
 URL-REGEX,^https?:\/\/gzapi\.mting\.info\/advert,REJECT
