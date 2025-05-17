@@ -19,7 +19,7 @@ URL-REGEX,^https?:\/\/gzapi\.mting\.info\/yyting\/bookclient\/similarRecommend,R
 URL-REGEX,^https?:\/\/gzapi\.mting\.info\/yyting\/popup\/getPopup,REJECT
 URL-REGEX,^https?:\/\/hmonitor\.mting\.info\/upload\/clickAdvert,REJECT
 URL-REGEX,^https?:\/\/shapi\.mting\.info\/yyting\/system\/switchConfig,REJECT
-
+URL-REGEX,^https?:\/\/gzapi\.mting\.info\/earning\/task\/advert\/api\/v1\/check,REJECT
 URL-REGEX,^https?:\/\/shapi\.mting\.info\/advert,REJECT
 URL-REGEX,^https?:\/\/gzapi\.mting\.info\/advert,REJECT
 
