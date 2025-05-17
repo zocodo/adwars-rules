@@ -14,14 +14,13 @@ URL-REGEX,^https?:\/\/dapis\.mting\.info\/yyting\/advertclient\/ClientAdvertList
 URL-REGEX,^https?:\/\/.*\/yyting\/advertclient\/ClientAdvertList.action,REJECT
 URL-REGEX,^https?:\/\/display\.wting\.info\/.*.jpeg,REJECT
 
-URL-REGEX,^https?:\/\/gzapi\.mting\.info/\yyting\/medal\/newRewardedMedalTips,REJECT
-URL-REGEX,^https?:\/\/gzapi\.mting\.info\/yyting\/bookclient\/similarRecommend,REJECT
-URL-REGEX,^https?:\/\/gzapi\.mting\.info\/yyting\/popup\/getPopup,REJECT
+URL-REGEX,^https?:\/\/(gzapi|shapi)\.mting\.info/\yyting\/medal\/newRewardedMedalTips,REJECT
+URL-REGEX,^https?:\/\/(gzapi|shapi)\.mting\.info\/yyting\/bookclient\/similarRecommend,REJECT
+URL-REGEX,^https?:\/\/(gzapi|shapi)\.mting\.info\/yyting\/popup\/getPopup,REJECT
 URL-REGEX,^https?:\/\/hmonitor\.mting\.info\/upload\/clickAdvert,REJECT
-URL-REGEX,^https?:\/\/shapi\.mting\.info\/yyting\/system\/switchConfig,REJECT
-URL-REGEX,^https?:\/\/gzapi\.mting\.info\/earning\/task\/advert\/api\/v1\/check,REJECT
-URL-REGEX,^https?:\/\/shapi\.mting\.info\/advert,REJECT
-URL-REGEX,^https?:\/\/gzapi\.mting\.info\/advert,REJECT
+URL-REGEX,^https?:\/\/(gzapi|shapi)\.mting\.info\/yyting\/system\/switchConfig,REJECT
+URL-REGEX,^https?:\/\/(gzapi|shapi)\.mting\.info\/earning\/task\/advert\/api\/v1\/check,REJECT
+URL-REGEX,^https?:\/\/(gzapi|shapi)\.mting\.info\/advert,REJECT
 
 # =====================================
 # MITM：中间人攻击，解密/跳过相关域名的内容，"-"开头为跳过
