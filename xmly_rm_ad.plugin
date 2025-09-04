@@ -17,9 +17,10 @@ DOMAIN, adbehavior.wsa.ximalaya.com, REJECT
 [Rewrite]
 
 ^https:\/\/adse\.ximalaya\.com\/adx\/init url reject-dict
-^https:\/\/adse\.ximalaya\.com\/ting\/preload\/? url reject-dict
+^https:\/\/adse\.ximalaya\.com\/ting\/? url reject-dict
+^https:\/\/adse\.ximalaya\.com\/incentive\/? url reject-dict
+
 ^https:\/\/adse\.ximalaya\.com\/adx\/ad url jsonjq-response-body '.slotAds = []'
-^https:\/\/adse\.ximalaya\.com\/? url reject-dict
 
 ^https:\/\/(search|searchwsa)\.ximalaya\.com\/hub\/(guideWord|hotWord)V\d\/ reject-dict
 
