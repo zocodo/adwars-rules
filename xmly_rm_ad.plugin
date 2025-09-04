@@ -18,7 +18,7 @@ DOMAIN, adbehavior.wsa.ximalaya.com, REJECT
 
 ^https:\/\/adse\.ximalaya\.com\/adx\/init reject-dict
 ^https:\/\/adse\.ximalaya\.com\/ting\/? reject-dict
-^https:\/\/adse\.ximalaya\.com\/adx\/ad jsonjq-response-body '.slotAds = []'
+^https:\/\/adse\.ximalaya\.com\/adx\/ad response-body-json-jq '.slotAds = []'
 
 ^https:\/\/(search|searchwsa)\.ximalaya\.com\/hub\/(guideWord|hotWord)V\d\/ reject-dict
 
