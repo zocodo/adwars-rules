@@ -16,7 +16,7 @@ DOMAIN-SUFFIX, adbehavior.wsa.ximalaya.com, REJECT
 ^https:\/\/adse\.ximalaya\.com\/adx\/init url reject-dict
 ^https:\/\/adse\.ximalaya\.com\/ting\/preload\/? url reject-dict
 # ^https:\/\/adse\.ximalaya\.com\/adx\/ad url mock-response-body data-type=json data="{"slotAds":[],"msg":null,"userShowReportExt":null,"ret":0}" status-code=200
-^https:\/\/adse\.ximalaya\.com\/adx\/ad url mock-response-body jsonjq-response-body '.slotAds = []'
+^https:\/\/adse\.ximalaya\.com\/adx\/ad url jsonjq-response-body '.slotAds = []'
 
 ^https:\/\/(search|searchwsa)\.ximalaya\.com\/hub\/(guideWord|hotWord)V\d\/ url reject-dict
 ^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/discovery-feed\/v\d\/mix\/ url jsonjq-response-body '.heData |= map(select(.item.list[].bizType != "SceneListenCard"))'
