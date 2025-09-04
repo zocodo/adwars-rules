@@ -6,7 +6,7 @@
 #!system_version=
 #!loon_version=3.2.4(787)
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Himalaya.png
-#!date=2025-09-04 17:53:22
+#!date=2025-09-04 17:54:22
 
 [Rule]
 DOMAIN, adsehera.ximalaya.com, REJECT
